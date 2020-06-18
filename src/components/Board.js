@@ -14,7 +14,7 @@ const style = {
 
 function Board({squares, onClick}) {
     return (
-        //div that is going to encapsulate all squares
+        /*div that is going to encapsulate all squares*/
         <div style={style}>
             {/* for each square in the 'squares' var draw a new Square componet
             onClick is going to be the one passed as a prop as well  */}

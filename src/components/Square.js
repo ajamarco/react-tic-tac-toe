@@ -12,7 +12,7 @@ const style = {
 
 function Square({onClick, value}) {
     return (
-        //apply to the button the 'onClick' and 'value' passed as a prop
+        /*apply to the button the 'onClick' and 'value' passed as a prop*/
         <button onClick={onClick} style={style}>
             {value}
         </button>
