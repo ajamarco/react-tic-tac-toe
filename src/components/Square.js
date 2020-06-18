@@ -1,5 +1,6 @@
 import React from 'react'
 
+//style for the button
 const style = {
     background: 'lightblue',
     border: '2px solid darkblue',
@@ -11,6 +12,7 @@ const style = {
 
 function Square({onClick, value}) {
     return (
+        //apply to the button the 'onClick' and 'value' passed as a prop
         <button onClick={onClick} style={style}>
             {value}
         </button>
